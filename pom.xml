@@ -35,9 +35,9 @@
         <url>http://issues.apache.org/jira/browse/AXIS</url>
     </issueManagement>
     <scm>
-        <connection>scm:svn:http://svn.apache.org/repos/asf/axis/axis1/java/trunk</connection>
-        <developerConnection>scm:svn:https://svn.apache.org/repos/asf/axis/axis1/java/trunk</developerConnection>
-        <url>http://svn.apache.org/viewvc/axis/axis1/java/trunk</url>
+        <connection>scm:git:https://github.com/Cosium/axis-project</connection>
+        <developerConnection>scm:git:https://github.com/Cosium/axis-project</developerConnection>
+        <url>https://github.com/Cosium/axis-project</url>
     </scm>
     <mailingLists>
         <mailingList>
@@ -491,7 +491,7 @@
     <properties>
         <javaVersion>1.4</javaVersion>
         <baseUrl>http://axis.apache.org/axis/java</baseUrl>
-        <baseSiteUrl>scm:svn:https://svn.apache.org/repos/asf/axis/site/axis/java</baseSiteUrl>
+        <baseSiteUrl>scm:git:https://github.com/Cosium/axis-project</baseSiteUrl>
     </properties>
     <distributionManagement>
         <repository>
