@@ -27,7 +27,7 @@
     <groupId>org.apache.axis</groupId>
     <artifactId>axis-project</artifactId>
     <name>Axis</name>
-    <version>1.4.1-SNAPSHOT</version>
+    <version>1.4.1.0.cosium-SNAPSHOT</version>
     <packaging>pom</packaging>
     <url>${baseUrl}/</url>
     <issueManagement>
@@ -494,6 +494,16 @@
         <baseSiteUrl>scm:svn:https://svn.apache.org/repos/asf/axis/site/axis/java</baseSiteUrl>
     </properties>
     <distributionManagement>
+        <repository>
+            <id>cosium-repo</id>
+            <name>Internal Release Repository</name>
+            <url>https://repo.cosium.com/repository/internal/</url>
+        </repository>
+        <snapshotRepository>
+            <id>cosium-repo-snapshots</id>
+            <name>Internal Snapshot Repository</name>
+            <url>https://repo.cosium.com/repository/snapshots/</url>
+        </snapshotRepository>
         <site>
             <id>axis</id>
             <url>${baseSiteUrl}/</url>
