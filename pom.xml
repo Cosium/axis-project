@@ -494,6 +494,14 @@
         <baseSiteUrl>scm:git:https://github.com/Cosium/axis-project</baseSiteUrl>
     </properties>
     <distributionManagement>
+        <repository>
+            <id>nexus-cosium-dev-releases</id>
+            <url>https://nexus.cosium.dev/repository/maven-releases/</url>
+        </repository>
+        <snapshotRepository>
+            <id>nexus-cosium-dev-snapshots</id>
+            <url>https://nexus.cosium.dev/repository/maven-snapshots/</url>
+        </snapshotRepository>
         <site>
             <id>axis</id>
             <url>${baseSiteUrl}/</url>
