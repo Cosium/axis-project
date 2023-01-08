@@ -494,16 +494,6 @@
         <baseSiteUrl>scm:git:https://github.com/Cosium/axis-project</baseSiteUrl>
     </properties>
     <distributionManagement>
-        <repository>
-            <id>cosium-repo</id>
-            <name>Internal Release Repository</name>
-            <url>https://repo.cosium.com/repository/internal/</url>
-        </repository>
-        <snapshotRepository>
-            <id>cosium-repo-snapshots</id>
-            <name>Internal Snapshot Repository</name>
-            <url>https://repo.cosium.com/repository/snapshots/</url>
-        </snapshotRepository>
         <site>
             <id>axis</id>
             <url>${baseSiteUrl}/</url>
