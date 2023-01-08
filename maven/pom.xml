@@ -94,6 +94,12 @@
                     </tags>
                 </configuration>
             </plugin>
+
+        </plugins>
+    </build>
+
+    <reporting>
+        <plugins>
             <plugin>
                 <!-- This overrides the set of reports (we don't want to generate the reports defined in the parent POM) -->
                 <artifactId>maven-site-plugin</artifactId>
@@ -115,5 +121,5 @@
                 </configuration>
             </plugin>
         </plugins>
-    </build>
+    </reporting>
 </project>
